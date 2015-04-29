@@ -72,6 +72,7 @@ $('#guessList')
 	else if (v >=low1 && v<=high1) {$('#guessList').append(v+"-Ice Cold"+'<br>');}
 
 if (c==3) {alert("You are out of turns. Start new game");
+c=0;
 
 $('#userGuess').prop("disabled", true); 
 $('#guessButton').prop("disabled", true);
